@@ -1,5 +1,16 @@
 [
   {
+    "version": "3.0",
+    "date": "18-07-2025",
+    "log": [
+      "Initial Android 16 June Update.",
+      "All previous features retained.",
+      "New Quick Settings panel added.",
+      "Added blur effects on settings search bar",
+      "Smoother animations throughout the UI"
+    ]
+  },
+  {
     "version": "2.7",
     "date": "15-06-2025",
     "log": [
