@@ -14,11 +14,11 @@
       "version": "3.0",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "18-07-2025",
+      "date": "25-07-2025",
       "securityPatch": "June 2025",
       "fileSize": "2.6 GB",
-      "md5": "cff28b1bd219269059aed38dfed3d994",
-      "downloadUrl": "https://get.thecloverproject.com/folder/marble/3.x/3.0"
+      "md5": "14d3f690d47261a4d1e1b2e56deacbd7",
+      "downloadUrl": "https://get.thecloverproject.com/folder/marble/3.x/3.0-Hotfix"
     }
   ],
   "installationGuide": {
@@ -59,6 +59,17 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.0-Hotfix",
+      "date": "25-07-2025",
+      "log": [
+        "Dropped overlay: Add FPS info support",
+        "Move background cpuset to CPU0-1",
+        "smoother scrolling and better responsiveness",
+        "new powerhint added",
+        "new dalvik heap size implemented for performance"
+      ]
+    },
     {
       "version": "3.0",
       "date": "18-07-2025",
