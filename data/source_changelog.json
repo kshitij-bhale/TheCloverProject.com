@@ -1,5 +1,17 @@
 [
   {
+    "version": "3.1",
+    "date": "10-08-2025",
+    "log": [
+      "Redesigned Settings UI.",
+      "System wide UI related changes.",
+      "Optimized and Improved Launcher.",
+      "Added window level blur support.",
+      "Added dimming the wallpaper with night features.",
+      "Redesigned UDFPS icon"
+    ]
+  },
+  {
     "version": "3.0",
     "date": "18-07-2025",
     "log": [
