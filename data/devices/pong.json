@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/pong/",
   "builds": [
     {
-      "version": "2.7",
-      "androidVersion": "15",
+      "version": "3.1",
+      "androidVersion": "16",
       "status": "Stable",
-      "date": "23-06-2025",
-      "securityPatch": "June 2025",
-      "fileSize": "2.5 GB",
-      "md5": "da8a913cd2c1d8d0029434c208fe665b",
-      "downloadUrl": "https://get.thecloverproject.com/folder/pong/2.x/2.7"
+      "date": "18-08-2025",
+      "securityPatch": "July 2025",
+      "fileSize": "2.6 GB",
+      "md5": "2bfd54af6ae3ca41db71d23472156411",
+      "downloadUrl": "https://get.thecloverproject.com/folder/pong/3.x/3.1"
     }
   ],
   "installationGuide": {
@@ -59,6 +59,15 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.1",
+      "date": "18-08-2025",
+      "log": [
+        "Initial A16 Build",
+        "Switch to OSS audio stack",
+        "Build /product as EROFS"
+      ]
+    },
     {
       "version": "2.7",
       "date": "23-06-2025",
