@@ -88,5 +88,14 @@
         "maintainer": "Dhanush",
         "status": "Stable",
         "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/marble.png"
+    },
+    {
+        "id": 11,
+        "name": "Redmo Note 10 Pro",
+        "codename": "sweet",
+        "brand": "Redmi",
+        "maintainer": "Rayyan",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/sweet.png"
     }
 ]
