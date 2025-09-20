@@ -36,8 +36,12 @@
         "description": "Open CMD or Terminal on your PC and connect your phone via USB."
       },
       {
-        "title": "Flash Recovery",
-        "description": "Flash recovery by typing:<pre><code>fastboot flash recovery recovery*.img</code></pre>"
+        "title": "Flash Boot Image",
+        "description": "Flash boot image by typing:<pre><code>fastboot flash boot boot.img</code></pre>"
+      },
+      {
+        "title": "Flash Vendor Boot Image",
+        "description": "Flash vendor boot image by typing:<pre><code>fastboot flash vendor_boot vendor_boot*.img </code></pre>"
       },
       {
         "title": "Reboot To Recovery",
