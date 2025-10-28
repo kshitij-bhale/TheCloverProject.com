@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/cancunf/",
   "builds": [
     {
-      "version": "3.2",
+      "version": "3.3",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "02-10-2025",
-      "securityPatch": "Sep 2025",
-      "fileSize": "2.7 GB",
-      "md5": "80066e19260ddb88a11e022faf021296",
-      "downloadUrl": "https://get.thecloverproject.com/folder/cancunf/3.x/3.2"
+      "date": "26-10-2025",
+      "securityPatch": "Oct 2025",
+      "fileSize": "2.6 GB",
+      "md5": "cc1e19b7fa62af709e2f0860a854209e",
+      "downloadUrl": "https://get.thecloverproject.com/folder/cancunf/3.x/3.3"
     }
   ],
   "installationGuide": {
@@ -51,6 +51,13 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.3",
+      "date": "26-10-2025",
+      "log": [
+        "Fix wakelock being held."
+      ]
+    },
     {
       "version": "3.2",
       "date": "02-10-2025",
