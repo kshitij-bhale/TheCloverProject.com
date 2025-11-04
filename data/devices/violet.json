@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/violet/",
   "builds": [
     {
-      "version": "3.2",
+      "version": "3.3",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "23-09-2025",
-      "securityPatch": "September 2025",
-      "fileSize": "2.7 GB",
-      "md5": "2d463db5565f7c3e7a655751a0fcb5f0",
-      "downloadUrl": "https://get.thecloverproject.com/folder/violet/3.x/3.2"
+      "date": "31-10-2025",
+      "securityPatch": "October 2025",
+      "fileSize": "2.9 GB",
+      "md5": "783fe6fcff500f2f65388dc200d28c76f0d8b0bd1999bf9d833b0a832dd6968a",
+      "downloadUrl": "https://get.thecloverproject.com/folder/violet/3.x/3.3"
     }
   ],
   "installationGuide": {
@@ -59,6 +59,22 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.3",
+      "date": "31-10-2025",
+      "log": [
+        "Synced with latest source",
+        "Rebased entire device tree on LineageOS 23 sources (clean flash required)",
+        "Fixed Double Tap to Wake (D2TW) and auto-brightness issues",
+        "Addressed excessive heating reported by some users",
+        "Integrated OnePlus Dolby Audio for enhanced sound experience",
+        "Disabled system-wide blur effects due to hardware limitations",
+        "Updated vendor security patch to June 2025 (synced with common tree)",
+        "Enhanced memory management for smoother multitasking",
+        "General UI and stability improvements",
+        "Significant kernel optimizations and refinements for better performance"
+      ]
+    },
     {
       "version": "3.2",
       "date": "",
