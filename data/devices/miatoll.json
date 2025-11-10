@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/miatoll/",
   "builds": [
     {
-      "version": "3.1",
+      "version": "3.3",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "11-08-2025",
-      "securityPatch": "June 2025",
-      "fileSize": "2.6 GB",
-      "md5": "df27adcaf8975a50c98b4afd11635723",
-      "downloadUrl": "https://get.thecloverproject.com/folder/miatoll/3.x/3.1"
+      "date": "08-11-2025",
+      "securityPatch": "October 2025",
+      "fileSize": "2.7 GB",
+      "md5": "af7aefb6ba465d2f4514a418828543f2",
+      "downloadUrl": "https://get.thecloverproject.com/folder/miatoll/3.x/3.3"
     }
   ],
   "installationGuide": {
@@ -59,6 +59,16 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.3",
+      "date": "08-11-2025",
+      "log": [
+        "Update Spatial Audio blobs from cheetah bp2a series",
+        "Set Spatial Audio threads to highest priority",
+        "Added back Miui Camera support",
+        "Misc fixes & optimization"
+      ]
+    },
     {
       "version": "3.1",
       "date": "11-08-2025",
