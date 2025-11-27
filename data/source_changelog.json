@@ -1,5 +1,13 @@
 [
   {
+    "version": "3.4",
+    "date": "24-11-2025",
+    "log": [
+      "Initial Android 16 QPR1 November update (v3.4)",
+      "Switched to pixel launcher temporarily"
+    ]
+  },
+  {
     "version": "3.3",
     "date": "17-10-2025",
     "log": [
