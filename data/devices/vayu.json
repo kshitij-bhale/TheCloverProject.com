@@ -1,0 +1,62 @@
+{
+  "name": "Poco X3 Pro",
+  "codename": "vayu",
+  "brand": "Xiaomi",
+  "tagline": "Experience the perfect blend of performance and customization with our Pixel-inspired custom ROM for your device.",
+  "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/download/vayu.png",
+  "maintainer": {
+    "name": "sloppe",
+    "githubUrl": "https://github.com/GhostedProtocol16"
+  },
+  "olderBuildsUrl": "https://get.thecloverproject.com/folder/vayu/",
+  "builds": [
+    {
+      "version": "3.5",
+      "androidVersion": "16",
+      "status": "Stable",
+      "date": "14-12-2025",
+      "securityPatch": "Dec 2025",
+      "fileSize": "2.8 GiB",
+      "md5": "26622abbbea1b54e087bd69433fe7478",
+      "downloadUrl": "https://get.thecloverproject.com/folder/vayu/3.x/3.5"
+    }
+  ],
+  "installationGuide": {
+    "steps": [
+      {
+        "title": "Unlock Bootloader",
+        "description": "Ensure your device's bootloader is unlocked before proceeding."
+      },
+      {
+        "title": "Connection",
+        "description": "Open CMD or Terminal on your PC and connect your phone via USB with usb debugging enabled."
+      },
+      {
+        "title": "Reboot To Recovery",
+        "description": "Reboot into Recovery typing:<pre><code>adb reboot recovery</code> or holding power + volume up button.</pre>"
+      },
+      {
+        "title": "Flash Clover ROM",
+        "description": "Flash clover rom through Clover recovery using sideload or through internal storage."
+      }, 
+      {
+        "title": "Wipe Data",
+        "description": "In recovery, click on factory reset and then do format data or reboot to fastboot and type <code>fastboot -w</code> (recommended)."
+      },
+      {
+        "title": "Reboot",
+        "description": "The first boot may take a few minutes. Enjoy Clover!"
+      }
+    ],
+    "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
+  },
+  "deviceChangelog": [
+    {
+      "version": "3.5",
+      "date": "14-12-2025",
+      "log": [
+        "A16 QPR1 Build"
+      ]
+    }
+  ]
+}

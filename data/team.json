@@ -49,14 +49,6 @@
   },
   {
     "id": 7,
-    "name": "Arafath Hossain",
-    "role": "Designer",
-    "image": "https://avatars.githubusercontent.com/u/110384843?v=4",
-    "github": "https://github.com/arafatrahat94",
-    "telegram": "https://t.me/ArafathSensei94"
-  },
-  {
-    "id": 8,
     "name": "RainZ",
     "role": "Maintainer",
     "image": "https://avatars.githubusercontent.com/u/173589746?v=4",
@@ -64,15 +56,7 @@
     "telegram": "https://t.me/Rainysorcerer"
   },
   {
-    "id": 9,
-    "name": "Superuser",
-    "role": "Maintainer",
-    "image": "https://avatars.githubusercontent.com/u/29195927?v=4",
-    "github": "https://github.com/joshuah345",
-    "telegram": "https://t.me/Superuser1958"
-  },
-  {
-    "id": 10,
+    "id": 8,
     "name": "Sreejith",
     "role": "Maintainer",
     "image": "https://avatars.githubusercontent.com/u/116376583?v=4",
@@ -80,7 +64,7 @@
     "telegram": "https://t.me/sreejith0491"
   },
   {
-    "id": 11,
+    "id": 9,
     "name": "Rayyan",
     "role": "Maintainer",
     "image": "https://avatars.githubusercontent.com/u/126084656?v=4",
@@ -88,15 +72,7 @@
     "telegram": "https://t.me/rayyan_x95"
   },
   {
-    "id": 12,
-    "name": "Aditya",
-    "role": "Maintainer",
-    "image": "https://avatars.githubusercontent.com/u/115138168?v=4",
-    "github": "https://github.com/adityayyy",
-    "telegram": "https://t.me/Theannoyingcat"
-  },
-  {
-    "id": 13,
+    "id": 10,
     "name": "Farrukh",
     "role": "Maintainer",
     "image": "https://avatars.githubusercontent.com/u/59789349?v=4",
@@ -104,20 +80,27 @@
     "telegram": "https://t.me/Farrukh2002"
   },
   {
-    "id": 14,
+    "id": 11,
     "name": "Provasish",
     "role": "Maintainer",
     "image": "https://avatars.githubusercontent.com/u/82043200?v=4",
     "github": "https://github.com/provasish",
     "telegram": "https://t.me/provasishh"
-  }
- ,
+  },
   {
-    "id": 15,
+    "id": 12,
     "name": "Akky",
     "role": "Maintainer",
     "image": "https://avatars.githubusercontent.com/u/220152365?v=4",
     "github": "https://github.com/Akkyhere",
     "telegram": "https://t.me/akky_sharma"
-  } 
+  },
+  {
+    "id": 13,
+    "name": "sloppe",
+    "role": "Maintainer",
+    "image": "https://avatars.githubusercontent.com/u/82859267?v=4",
+    "github": "https://github.com/GhostedProtocol16",
+    "telegram": "https://t.me/aisloppe"
+  }
 ]

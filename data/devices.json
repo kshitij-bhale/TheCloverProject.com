@@ -67,8 +67,8 @@
         "name": "Nothing Phone 1",
         "codename": "spacewar",
         "brand": "Nothing",
-        "maintainer": "Aditya",
-        "status": "Stable",
+        "maintainer": "Awaiting",
+        "status": "Discontinued",
         "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/spacewar.png"
     },
     {
@@ -76,8 +76,8 @@
         "name": "Nothing Phone 2",
         "codename": "pong",
         "brand": "Nothing",
-        "maintainer": "Hiroshi",
-        "status": "Stable",
+        "maintainer": "Awaiting",
+        "status": "Discontinued",
         "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/pong.png"
     },
     {
@@ -133,5 +133,14 @@
         "maintainer": "Akky",
         "status": "Stable",
         "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/rhodep.png"
+    },
+    {
+        "id": 16,
+        "name": "Poco X3 Pro",
+        "codename": "vayu",
+        "brand": "Xiaomi",
+        "maintainer": "sloppe",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/vayu.png"
     }
 ]
