@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/peridot/",
   "builds": [
     {
-      "version": "3.3",
+      "version": "3.5",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "27-10-2025",
-      "securityPatch": "October 2025",
-      "fileSize": "3.2 GB",
-      "md5": "ddf92c1c1632118d38acb9f2edcfd21f",
-      "downloadUrl": "https://get.thecloverproject.com/folder/peridot/3.x/3.3"
+      "date": "15-12-2025",
+      "securityPatch": "December 2025",
+      "fileSize": "3.22 GB",
+      "md5": "2e219ad4b5712e0671ec5d70d6aa69fe",
+      "downloadUrl": "https://get.thecloverproject.com/folder/peridot/3.x/3.5"
     }
   ],
   "installationGuide": {
@@ -59,6 +59,14 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.5",
+      "date": "15-12-2025",
+      "log": [
+        "Upstreamed to latest QPR1 Source",
+        "Fixed ringtone not coming through Bluetooth headphones on incoming calls."
+      ]
+    },
     {
       "version": "3.3",
       "date": "27-10-2025",
