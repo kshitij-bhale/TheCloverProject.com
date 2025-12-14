@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/spartan/",
   "builds": [
     {
-      "version": "3.4",
+      "version": "3.5",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "24-11-2025",
-      "securityPatch": "Nov 2025",
-      "fileSize": "2.5 GiB",
-      "md5": "96300fe94401280a70aec237906edbc6",
-      "downloadUrl": "https://get.thecloverproject.com/folder/spartan/3.x/3.4"
+      "date": "14-12-2025",
+      "securityPatch": "Dec 2025",
+      "fileSize": "2.62 GiB",
+      "md5": "e3f478194166e8e8184c57200fee1f18",
+      "downloadUrl": "https://get.thecloverproject.com/folder/spartan/3.x/3.5"
     }
   ],
   "installationGuide": {
@@ -59,6 +59,14 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.5",
+      "date": "14-12-2025",
+      "log": [
+        "Kernel side improvements",
+        "Upstreamed to latest QPR1 source"
+      ]
+    },
     {
       "version": "3.4",
       "date": "24-11-2025",
