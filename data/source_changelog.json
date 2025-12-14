@@ -1,5 +1,20 @@
 [
   {
+    "version": "3.5",
+    "date": "03-12-2025",
+    "log": [
+      "Android 16 QPR1 December Update (v3.5)",
+      "Redesigned Settings UI",
+      "Introduced Force LTE_CA override per subscription",
+      "Applied rounded corners across the entire UI",
+      "Added pure Black theme option for Dark Mode",
+      "Added double-tap gesture on screen to sleep",
+      "Fixed long-press Power button to toggle torch",
+      "That wraps up QPR1! See you next month with QPR2 or hopefully even sooner, within the next two weeks",
+      "More optimizations and under-the-hood fixes"
+    ]
+  },
+  {
     "version": "3.4",
     "date": "24-11-2025",
     "log": [
