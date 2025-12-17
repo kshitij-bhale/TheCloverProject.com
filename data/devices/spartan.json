@@ -14,11 +14,11 @@
       "version": "3.5",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "14-12-2025",
+      "date": "16-12-2025",
       "securityPatch": "Dec 2025",
-      "fileSize": "2.62 GiB",
-      "md5": "e3f478194166e8e8184c57200fee1f18",
-      "downloadUrl": "https://get.thecloverproject.com/folder/spartan/3.x/3.5"
+      "fileSize": "2.63 GiB",
+      "md5": "3b44c22da5209eeefd06eab4a215437e",
+      "downloadUrl": "https://get.thecloverproject.com/folder/spartan/3.x/3.5-HOTFIX"
     }
   ],
   "installationGuide": {
@@ -59,6 +59,14 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.5-HOTFIX",
+      "date": "16-12-2025",
+      "log": [
+        "Fixed OPcam",
+        "Fixed Snapchat camera issue"
+      ]
+    },
     {
       "version": "3.5",
       "date": "14-12-2025",
