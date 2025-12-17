@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/alioth/",
   "builds": [
     {
-      "version": "3.4",
+      "version": "3.5",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "28-11-2025",
-      "securityPatch": "November 2025",
-      "fileSize": "2.3 GB",
-      "md5": "591ad259b023bd2fd4e6e216b608db62",
-      "downloadUrl": "https://get.thecloverproject.com/folder/alioth/3.x/3.4"
+      "date": "16-12-2025",
+      "securityPatch": "December 2025",
+      "fileSize": "2.33 GB",
+      "md5": "198cf4f7bc9e5409f811ed4b7be061c2",
+      "downloadUrl": "https://get.thecloverproject.com/folder/alioth/3.x/3.5"
     }
   ],
   "installationGuide": {
@@ -63,6 +63,25 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.5",
+      "date": "16-12-2025",
+      "log": [
+        "Tune ambient display burn-in protection",
+        "Fixes: startup crash in Tencent/Unity games",
+        "rootdir: Restore default swappiness parameters",
+        "rootdir: Pin msm_irqbalance to system-background",
+        "sepolicy: Resolve rild denials",
+        "sepolicy: Address wifi denial",
+        "sepolicy: Address schedtune",
+        "sepolicy: Allow usbd binder call",
+        "Build kernel with LLVM tools",
+        "Opt out of speaker_layout_channel_mask field",
+        "Tone down CamX and CHIUSECASE logging",
+        "Add missing fingerprint object",
+        "Many improvements underhood"
+      ]
+    },
     {
       "version": "3.4",
       "date": "28-11-2025",
