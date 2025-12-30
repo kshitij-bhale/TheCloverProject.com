@@ -138,7 +138,7 @@
         "id": 16,
         "name": "Poco X3 Pro",
         "codename": "vayu",
-        "brand": "Xiaomi",
+        "brand": "Poco",
         "maintainer": "sloppe",
         "status": "Stable",
         "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/vayu.png"
