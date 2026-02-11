@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/spartan/",
   "builds": [
     {
-      "version": "3.5",
+      "version": "3.7",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "16-12-2025",
-      "securityPatch": "Dec 2025",
-      "fileSize": "2.63 GiB",
-      "md5": "3b44c22da5209eeefd06eab4a215437e",
-      "downloadUrl": "https://get.thecloverproject.com/folder/spartan/3.x/3.5-HOTFIX"
+      "date": "11-02-2026",
+      "securityPatch": "Feb 2026",
+      "fileSize": "2.52 GiB",
+      "md5": "6f5870ebb8892d1e38c17f3e0e058184",
+      "downloadUrl": "https://get.thecloverproject.com/folder/spartan/3.x/3.7"
     }
   ],
   "installationGuide": {
@@ -59,6 +59,18 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.7",
+      "date": "11-02-2026",
+      "log": [
+        "Initial QPR2 Build",
+        "Patch some blobs to depend on libtinyxml2-v34.so",
+        "Address some selinux denials",
+        "Merged los sm8250",
+        "Update Dolby Atmos",
+        "Dropped Realme parts"
+      ]
+    },
     {
       "version": "3.5-HOTFIX",
       "date": "16-12-2025",
