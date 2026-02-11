@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/alioth/",
   "builds": [
     {
-      "version": "3.5",
+      "version": "3.7",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "16-12-2025",
-      "securityPatch": "December 2025",
-      "fileSize": "2.33 GB",
-      "md5": "198cf4f7bc9e5409f811ed4b7be061c2",
-      "downloadUrl": "https://get.thecloverproject.com/folder/alioth/3.x/3.5"
+      "date": "11-02-2026",
+      "securityPatch": "February 2026",
+      "fileSize": "2.34 GB",
+      "md5": "ecf9c5caa2ac6da1358e4f842f99d2e4",
+      "downloadUrl": "https://get.thecloverproject.com/folder/alioth/3.x/3.7"
     }
   ],
   "installationGuide": {
@@ -63,6 +63,28 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.7",
+      "date": "11-02-2026",
+      "log": [
+        "Initial QPR2 Build",
+        "Switch to e404 kernel (credit: @sk113r)",
+        "Switch to Lunaris Dolby (credit: @GhostRX89)",
+        "Patch some blobs to depend on libtinyxml2-v34.so",
+        "Address more XiaomiParts denials",
+        "Shim WFD with libinput_shim",
+        "Update graphics blobs from AOSPA",
+        "Add overlay to improve signal reception",
+        "Configure display cutout",
+        "Enable doze auto brightness on AOD",
+        "Defer applying divider",
+        "Move thermal profiles to system category",
+        "rootdir: dont stop statsd anymore",
+        "Fix refresh rate QS tile crash on invalid settings",
+        "Do not call configureRpcThreadpool",
+        "Many improvements underhood"
+      ]
+    },
     {
       "version": "3.5",
       "date": "16-12-2025",
