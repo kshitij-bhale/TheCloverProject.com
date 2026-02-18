@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/peridot/",
   "builds": [
     {
-      "version": "3.5",
+      "version": "3.7",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "15-12-2025",
-      "securityPatch": "December 2025",
-      "fileSize": "3.22 GB",
-      "md5": "2e219ad4b5712e0671ec5d70d6aa69fe",
-      "downloadUrl": "https://get.thecloverproject.com/folder/peridot/3.x/3.5"
+      "date": "18-02-2025",
+      "securityPatch": "February 2025",
+      "fileSize": "3.35 GB",
+      "md5": "91632462e1560bfeb9f71ad1634b004a",
+      "downloadUrl": "https://get.thecloverproject.com/folder/peridot/3.x/3.7"
     }
   ],
   "installationGuide": {
@@ -59,6 +59,19 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.7",
+      "date": "18-02-2025",
+      "log": [
+        "Drop Dolby Atmos",
+        "Drop High touch polling rate (temp.)",
+        "Drop Lineage Fast Charge (temp.)",
+        "Enable ADPF CPU Hints.",
+        "Enable frame pacing.",
+        "Tune Power hint (credits - @zenin1504 )",
+        "Add Local update option in clover updater."
+      ]
+    },
     {
       "version": "3.5",
       "date": "15-12-2025",
