@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/cancunf/",
   "builds": [
     {
-      "version": "3.3",
+      "version": "3.7",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "26-10-2025",
-      "securityPatch": "Oct 2025",
-      "fileSize": "2.6 GB",
-      "md5": "cc1e19b7fa62af709e2f0860a854209e",
-      "downloadUrl": "https://get.thecloverproject.com/folder/cancunf/3.x/3.3"
+      "date": "27-02-2026",
+      "securityPatch": "Feb 2026",
+      "fileSize": "2.7 GB",
+      "md5": "db41f34a7713ebd8deaff3b4dee7c36a",
+      "downloadUrl": "https://get.thecloverproject.com/folder/cancunf/3.x/3.7-HOTFIX"
     }
   ],
   "installationGuide": {
@@ -37,7 +37,7 @@
       },
       {
         "title": "Format Data",
-        "description": "Once it has flashed without any errors, you may proceed by running:<code><pre>fastboot reboot recovery</code></pre>. Then you can choose the Factory reset option on your device to format the /data partition."
+        "description": "Once it has flashed without any errors, you may proceed by running:<pre><code>fastboot reboot recovery</code></pre>. Then you can choose the Factory reset option on your device to format the /data partition."
       },
       {
         "title": "Flash Clover ROM",
@@ -51,6 +51,72 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.7-HOTFIX",
+      "date": "27-02-2025",
+      "log": [
+        "Switch to OSS BT audio interfaces.",
+        "Switch to dummy libaedv.",
+        "Add EROFS compress hints for relevant partitions in super.",
+        "Drop ipsec_mon and netdagent HALs as they are redundant after killing RPS.",
+        "Apply dex2oat optimizations.",
+        "Rework powerhint based on Motorola's mtkpower hints.",
+        "Copy keystore permission for Keymint V1.",
+        "Stop building unneeded dependencies."
+      ]
+    },
+    {
+      "version": "3.7",
+      "date": "23-02-2026",
+      "log": [
+        "End INTERACTION hint on EXPENSIVE_RENDERING to improve fluidity.",
+        "Drop redundant props as they are unused on AOSP.",
+        "Drop phase durations as offsets as it is broken on Android 16 QPR1 on S GRF devices.",
+        "Drop framerate multi threshold as VSync takes care of framerate voting.",
+        "Raise the frequency of sampling regions in SurfaceFlinger to attain precise 120Hz for frame fluidity.",
+        "Allocate 6 buffers for SurfaceFlinger to use in FrameBufferSurface to prevent GC overhead.",
+        "Update blobs to V1TDS35M.83-20-5-7.",
+        "Convert MotoActions for M3E support.",
+        "Apply Expressive theme on MotoActions.",
+        "Enable blurs.",
+        "Switch to shared libs to MediaTek framework jars.",
+        "Update IMS patches for Android 16 QPR1.",
+        "Patch some blobs to depend on older libtinyxml2.",
+        "Bring back phase offsets from stock to improve the graphics rendering pipeline.",
+        "Remove references to TelephonyMetrics in IMS for Android 16 QPR2.",
+        "Update blobs to V1TDS35M.83-20-5-8.",
+        "Convert TapGestures for M3E support.",
+        "Remove setIconSpaceReserved on TapGestures.",
+        "Pin gsm0710muxd from bogota W1V036M.85.",
+        "Drop non-MT6855 VPUD blob.",
+        "Drop vpud binary as we utilize v3avpud.",
+        "Drop fpc_tee_test binary as it is utilized on factory firmware.",
+        "Drop non-MT6631 FM firmware.",
+        "Drop useless mali firmware.",
+        "Reduce QS blur radius to 23dp.",
+        "Reduce launcher blur radius to 15dp.",
+        "Tune up powerhint for blur.",
+        "Improve status bar padding for Android 16 QPR1.",
+        "Move IMS jars back to system_ext as we are on a modern device.",
+        "Switch to stub mediatek-common framework to drop unneeded IMS dependencies.",
+        "Allow games to use 120fps.",
+        "Build MediaTek WiFi lib to drop dependency on prebuilt libwifi-hal.so.",
+        "Update VT from bogota W1V036M.85.",
+        "Update blobs to V1TDS35M.83-20-5-9.",
+        "Stop setting iosched to bfq at init.",
+        "Drop mmi_relay as it is useless for us.",
+        "Tweak Media/Call volume steps.",
+        "Reorder Model Number activity in proper category on MotoActions.",
+        "Set group key for display settings IA on MotoActions.",
+        "Set group key for battery settings IA on MotoActions.",
+        "Set group key for display settings IA on DisplayFeatures.",
+        "Import system NPU libs from V1TDS35M.83-20-5-9.",
+        "Opt-out of advanced refresh rate page.",
+        "Drop MediaTek's task_profiles configuration.",
+        "Kernel: Kernel state at r2b3.",
+        "Kernel: Drop mmi_relay."
+      ]
+    },
     {
       "version": "3.3",
       "date": "26-10-2025",

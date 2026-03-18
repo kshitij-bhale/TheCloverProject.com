@@ -1,5 +1,14 @@
 [
   {
+    "version": "3.8",
+    "date": "16-03-2026",
+    "log": [
+      "Android 16 QPR2 March Update (v3.8)",
+      "Added burn-in protection for statusbar",
+      "Misc improvements and optimizations"
+    ]
+  },
+  {
     "version": "3.7",
     "date": "11-02-2026",
     "log": [

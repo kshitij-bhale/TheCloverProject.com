@@ -5,20 +5,20 @@
   "tagline": "Experience the perfect blend of performance and customization with our Pixel-inspired custom ROM for your device.",
   "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/download/miatoll.png",
   "maintainer": {
-    "name": "Cruecy",
-    "githubUrl": "https://github.com/userariii"
+    "name": "RiteshSahany",
+    "githubUrl": "https://github.com/RiteshSahany"
   },
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/miatoll/",
   "builds": [
     {
-      "version": "3.3",
+      "version": "3.8",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "08-11-2025",
-      "securityPatch": "October 2025",
-      "fileSize": "2.7 GB",
-      "md5": "af7aefb6ba465d2f4514a418828543f2",
-      "downloadUrl": "https://get.thecloverproject.com/folder/miatoll/3.x/3.3"
+      "date": "16-03-2026",
+      "securityPatch": "March 2026",
+      "fileSize": "2.8 GB",
+      "md5": "d8920dd9382735be7e84f8ede984aafc",
+      "downloadUrl": "https://get.thecloverproject.com/folder/miatoll/3.x/3.8"
     }
   ],
   "installationGuide": {
@@ -59,6 +59,17 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.8",
+      "date": "16-03-2026",
+      "log": [
+        "Initial Android 16 QPR2 release",
+        "Switched to EROFS Partition ( Important: Only use the given recovery)",
+        "Updated wifi configs from sm8150",
+        "(Kernel) Updated kernel to Imperial-X r4.0 (Added support for erofs partition)",
+        "(Kernel) Updated LZ4 to version 1.9.4"
+      ]
+    },
     {
       "version": "3.3",
       "date": "08-11-2025",
