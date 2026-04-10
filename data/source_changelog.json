@@ -1,5 +1,21 @@
 [
   {
+    "version": "3.9",
+    "date": "10-04-2026",
+    "log": [
+      "Android 16 QPR2 April Update (v3.9)",
+      "Implemented dynamic VoLTE / VoNR / VoWiFi status bar icons",
+      "Updated Smartspace to CP1A.260305.018",
+      "Added Dolby preference entry in the Audio settings category",
+      "Added option to switch between new dynamic and legacy (filled) style status bar icons",
+      "Restored 2G option in Preferred Network Type (removed separate 2G toggle)",
+      "Persist and restore dual-SIM default data preference across reboots",
+      "Carrier Aggregation toggle now greys out when preferred network type is below LTE",
+      "Fixed VoLTE not reconnecting after VoWiFi handover",
+      "Various improvements and optimizations"
+    ]
+  },
+  {
     "version": "3.8",
     "date": "16-03-2026",
     "log": [
